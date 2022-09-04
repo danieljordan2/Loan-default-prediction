@@ -26,20 +26,15 @@ applicant.
 
 ● VALUE: Current value of the property
 
-● REASON: Reason for the loan request (HomeImp = home improvement, DebtCon= debt
-consolidation which means taking out a new loan to pay off other liabilities and consumer
-debts)
+● REASON: Reason for the loan request (HomeImp = home improvement, DebtCon= debt consolidation which means taking out a new loan to pay off other liabilities and consumer debts)
 
 ● JOB: The type of job that loan applicant has such as manager, self, etc.
 
 ● YOJ: Years at present job
 
-● DEROG: Number of major derogatory reports (which indicates serious delinquency or late
-payments).
+● DEROG: Number of major derogatory reports (which indicates serious delinquency or late payments).
 
-● DELINQ: Number of delinquent credit lines (a line of credit becomes delinquent when a
-borrower does not make the minimum required payments 30 to 60 days past the day on
-which the payments were due)
+● DELINQ: Number of delinquent credit lines (a line of credit becomes delinquent when a borrower does not make the minimum required payments 30 to 60 days past the day on which the payments were due)
 
 ● CLAGE: Age of the oldest credit line in months
 
@@ -47,6 +42,10 @@ which the payments were due)
 
 ● CLNO: Number of existing credit lines
 
-● DEBTINC: Debt-to-income ratio (all monthly debt payments divided by gross monthly
-income. This number is one of the ways lenders measure a borrower’s ability to manage the
-monthly payments to repay the money they plan to borrow)
+● DEBTINC: Debt-to-income ratio (all monthly debt payments divided by gross monthly income. This number is one of the ways lenders measure a borrower’s ability to manage the monthly payments to repay the money they plan to borrow)
+
+## Final results
+To solve this project I built 3 machine learning models: logistic regression, decision tree and random forest (baseline and tuned versions).
+The best performance was obtained by the tuned decision tree model: 0.86 accuracy, **0.74 recall** and 0.62 precision.
+
+I chose this model due to its **high interpretability** and **high recall** that minimizes defaulters.
