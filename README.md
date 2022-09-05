@@ -13,10 +13,7 @@ A bank's consumer credit department aims to simplify the decision-making process
 Build a classification model to predict clients who are likely to default on their loan and give recommendations to the bank on the important features to consider while approving a loan.
 
 ## Data Dictionary
-The Home Equity dataset (HMEQ) contains baseline and loan performance information for recent
-home equity loans. The target (BAD) is a binary variable that indicates whether an applicant has
-ultimately defaulted or has been severely delinquent. There are 12 input variables registered for each
-applicant.
+The Home Equity dataset (HMEQ, source: Kaggle.com) contains baseline and loan performance information for recent home equity loans. The target (BAD) is a binary variable that indicates whether an applicant has ultimately defaulted or has been severely delinquent. There are 12 input variables registered for each applicant.
 
 ● BAD: 1 = Client defaulted on loan, 0 = loan repaid
 
